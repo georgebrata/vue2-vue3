@@ -21,7 +21,7 @@
 
 <script>
 import { defineComponent, toRefs, reactive } from "vue";
-import {useAdd} from "../../hooks/index"
+import {useAdd} from "../../composables/index"
 
 
 export default defineComponent({

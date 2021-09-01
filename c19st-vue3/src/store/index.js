@@ -8,7 +8,6 @@ export default createStore({
   },
   mutations: {
     addSymptom(state, payload) {
-      console.log('payload: ', payload)
         switch (payload.type) {
             case "fever":
                 state.feverSymptoms.push(payload)
